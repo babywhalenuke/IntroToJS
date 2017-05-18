@@ -45,6 +45,20 @@
         }
         return bCount;
     }
+    
+     function countChar(str, letter){
+        var i = 0;
+        var bCount = 0;
+        while(i<str.length){
+            if(str.charAt(i) == letter){
+                bCount++;
+                i++;
+            }
+            i++;
+        }
+        return bCount;
+    }
+
 
 
     
