@@ -46,6 +46,11 @@
         return bCount;
     }
     
+    function countBs(str, inputletter){
+        return countChar(str,inputletter);
+    }
+    
+    
      function countChar(str, letter){
         var i = 0;
         var bCount = 0;
