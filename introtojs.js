@@ -2,6 +2,10 @@
         return a * b;
     }
     
+    function functionOne(){
+        document.write("Introduction to Javascript");
+    }
+    
     function writeS(){
     document.write("What the heck");
     }
@@ -27,6 +31,19 @@
                 i++;
             }
         }
+    }
+    
+    function findBs(str){
+        var i = 0;
+        var bCount = 0;
+        while(i<str.length){
+            if(str.charAt(i) == 'B'){
+                bCount++;
+                i++;
+            }
+            i++;
+        }
+        return bCount;
     }
 
 
